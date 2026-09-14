@@ -102,8 +102,6 @@ Phase transitions MUST be announced in a dedicated RFC.
 
 ## `// 04` — CHANGE CATEGORIES
 
-Every change to the specification falls into one of the following categories.
-
 ```text
 ┌─[ CHANGE CLASSIFICATION ]────────────────────────────────────────────────────┐
 │                                                                              │
@@ -196,9 +194,6 @@ Any change to the version MUST be reflected in:
 
 ## `// 08` — CONFLICT RESOLUTION
 
-Conflicts may arise between contributors, reviewers, or about
-interpretation of the specification.
-
 ```text
   1.  Direct discussion in the relevant GitHub issue or PR.
   2.  If unresolved, the maintainer issues a written decision
@@ -214,8 +209,6 @@ The maintainer MUST document the rationale for any contested decision.
 ---
 
 ## `// 09` — SECURITY-CRITICAL CHANGES
-
-For vulnerabilities affecting the specification, schemas, or test vectors:
 
 ```bash
 $ ktp governance --security-path
@@ -306,19 +299,6 @@ This document MAY be amended via RFC. Amendments MUST be reflected in
 - **Status.** Draft · subject to legal review.
 
 </details>
-📄 docs(governance): add GOVERNANCE.md v0.1.0
-
-- Roles: maintainer, reviewers, contributors
-- Decision authority: sole maintainer (Phase 1)
-- Change categories: editorial, normative-additive,
-  normative-breaking, security-critical
-- RFC process with ≥14-day discussion window
-- DCO required (no CLA)
-- SemVer 2.0.0 mapping
-- Conflict resolution and security-critical path
-- Growth plan for Phase 2 (min 3 voting reviewers)
-
-Signed-off-by: Marco Antonio Rojas Valdovinos <proyectokronos@hotmail.com>
 
 ---
 
