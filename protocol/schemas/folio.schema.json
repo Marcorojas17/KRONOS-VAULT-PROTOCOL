@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Marcorojas17/kronos-protocol/protocol/schemas/folio.schema.json",
+  "title": "KTP Folio",
+  "description": "Validates a bare KTP-001 folio identifier.",
+  "ktp_version": "0.1.0",
+  "license": "CC-BY-4.0",
+  "sha256": "",
+  "type": "string",
+  "pattern": "^FVD-\\([A-Z0-9]{2,20}\\)-[0-9]{5,}$",
+  "minLength": 12,
+  "maxLength": 60,
+  "examples": [
+    "FVD-(DEMO)-00001",
+    "FVD-(TEXTILX)-00512",
+    "FVD-(PHARMA)-00001"
+  ]
+}
