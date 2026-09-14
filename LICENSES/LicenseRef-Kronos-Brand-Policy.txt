@@ -1,0 +1,88 @@
+LicenseRef-Kronos-Brand-Policy
+═══════════════════════════════════════════════════════════════════════════════
+
+Custom license reference for the brand/ directory and brand assets
+of the KRONOS VAULT PROTOCOL repository.
+
+SPDX-License-Identifier:  LicenseRef-Kronos-Brand-Policy
+Applies to:                brand/** and docs/assets/img/logo.*
+Status:                    all rights reserved
+
+───────────────────────────────────────────────────────────────────────────────
+1. SCOPE
+───────────────────────────────────────────────────────────────────────────────
+
+This policy governs the use of the project identifiers and visual assets
+contained in the brand/ directory and any logo copy placed elsewhere
+in the repository (for example, docs/assets/img/logo.*), including:
+
+    ▸ "Kronos"             as a project name
+    ▸ "KTP"                as an acronym
+    ▸ "Kronos Vault"       as a compound identifier
+    ▸ "Kronos Vault Protocol"
+    ▸ the official logo and visual identity files in brand/assets/
+    ▸ any logo copy used by the documentation site
+
+───────────────────────────────────────────────────────────────────────────────
+2. STATUS
+───────────────────────────────────────────────────────────────────────────────
+
+Trademark registration status: PENDING · NOT REGISTERED.
+
+While pending, the correct symbol is ™. The symbol ® may NOT be used.
+
+Detailed status, territorial scope, and pending applications are
+documented in brand/TRADEMARK.md.
+
+───────────────────────────────────────────────────────────────────────────────
+3. PERMITTED USE
+───────────────────────────────────────────────────────────────────────────────
+
+You MAY, without prior written authorization:
+
+    a) Refer to "Kronos Vault Protocol" or "KTP" factually.
+    b) Cite the project in academic, journalistic, or technical works.
+    c) State that an implementation is "compatible with KTP-001".
+    d) Link to the official repository or documentation.
+    e) Use the specification itself (under its own CC-BY-4.0 license).
+
+───────────────────────────────────────────────────────────────────────────────
+4. RESTRICTED USE
+───────────────────────────────────────────────────────────────────────────────
+
+You MAY NOT, without prior written authorization:
+
+    a) Present a fork, derivative, or product as the official
+       "Kronos Vault Protocol" or "KTP".
+    b) Imply endorsement, sponsorship, or affiliation with the
+       original project.
+    c) Use the project identifiers or logo in a way that suggests
+       the use is authorized or official.
+    d) Register the identifiers as domain names, trademarks, company
+       names, or social media handles.
+    e) Use the identifiers on non-compatible products or services.
+
+───────────────────────────────────────────────────────────────────────────────
+5. REQUESTING AUTHORIZATION
+───────────────────────────────────────────────────────────────────────────────
+
+To request authorization for any use not covered by section 3:
+
+    Contact: proyectokronos@hotmail.com
+
+Include the intended use, scope, duration, and context.
+
+───────────────────────────────────────────────────────────────────────────────
+6. RELATION TO CC-BY-4.0
+───────────────────────────────────────────────────────────────────────────────
+
+The CC-BY-4.0 license applied to protocol/ does NOT grant any rights
+over the project identifiers or the logo. Brand protection is independent
+of the technical specification's license.
+
+───────────────────────────────────────────────────────────────────────────────
+7. LEGAL REVIEW STATUS
+───────────────────────────────────────────────────────────────────────────────
+
+This policy is a DRAFT and is subject to PROFESSIONAL LEGAL REVIEW before
+being considered final.
