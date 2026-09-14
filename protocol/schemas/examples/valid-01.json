@@ -1,0 +1,32 @@
+{
+  "folio": "FVD-(DEMO)-00001",
+  "version": "KTP-001/v0.1.0",
+  "issued": "2026-09-14T00:00:00Z",
+  "issuer": {
+    "id": "did:example:issuer-01",
+    "name": "Example Issuer S.A. de C.V."
+  },
+  "hashes": {
+    "sha256": "34c6e0182ce35b3bfb2488261746a689f5009a0a5260f128be06989b29d34dc"
+  },
+  "timestamps": [
+    {
+      "type": "rfc3161",
+      "authority": "Safe Creative",
+      "timestamp": "2026-09-14T00:00:01Z",
+      "url": "https://example.org/ts/1"
+    },
+    {
+      "type": "rfc3161",
+      "authority": "Firmaprofesional SA",
+      "timestamp": "2026-09-14T00:00:02Z",
+      "url": "https://example.org/ts/2"
+    }
+  ],
+  "anchor": {
+    "chain": "ethereum",
+    "tx": "0x7ef5dbd264e100de9cbf639b2e5a0df10ab5c62769d2f2c49cae51b4e8e995a2",
+    "timestamp": "2026-09-14T00:01:00Z"
+  },
+  "state": 0
+}
