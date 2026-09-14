@@ -1,0 +1,22 @@
+# evidence/idfile.txt
+# Kronos Vault Protocol · root document hash manifest
+# Format: JSON · UTF-8 · LF line endings
+# License: CC-BY-4.0 (non-normative)
+#
+# This file records the cryptographic hashes of the root document
+# associated with the Safe Creative registry entry below.
+#
+# Registry: Safe Creative 2608096674952
+# Registered on: 2026-08-09 02:53 UTC
+# Document: PROYECTOKRONOSMARCOVALDOVINOS.pdf
+# Size: 48792 bytes
+#
+# IMPORTANT: this file does NOT prove authorship, ownership,
+# or legal effects. It records existence at a given time only.
+
+{
+  "size": 48792,
+  "sha1": "ac25bc59ca85be7956dcb121da2af48197bcbe33",
+  "sha256": "34c6e0182ce35b3bfb24f88261746a689f5009a0a5260f128be06989b29d34dc",
+  "sha512": "ef2345889d1ea4a307c2bf50bca16f7ac415f85865c3fd6169e2f8c7f5c0bca67bbf0d92605783c96ad57f31d2eb673d2d6760ab81ee9d63b4d143bf636b851"
+}
