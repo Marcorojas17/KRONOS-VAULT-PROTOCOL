@@ -1,0 +1,27 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   ▓ BLOQUE B · ESPECIFICACIÓN NORMATIVA · COMPLETADO                         ║
+║                                                                              ║
+║   ✅  protocol/README.md                                                     ║
+║   ✅  protocol/KTP-001.md                                                    ║
+║   ✅  protocol/CHANGELOG.md                                                  ║
+║   ✅  protocol/SECURITY-CONSIDERATIONS.md                                    ║
+║   ✅  protocol/PRIVACY-CONSIDERATIONS.md                                     ║
+║   ✅  protocol/rfcs/README.md                                                ║
+║   ✅  protocol/rfcs/0000-process.md                                          ║
+║   ✅  protocol/rfcs/0001-template.md                                         ║
+║   ✅  protocol/schemas/README.md                                             ║
+║   ✅  protocol/schemas/folio.schema.json                                     ║
+║   ✅  protocol/schemas/credential.schema.json                                ║
+║   ✅  protocol/schemas/revocation.schema.json                                ║
+║   ✅  protocol/schemas/examples/valid-01.json                                ║
+║   ✅  protocol/schemas/examples/valid-02.json                                ║
+║   ✅  protocol/schemas/examples/invalid-01.json                              ║
+║   ✅  protocol/schemas/examples/invalid-02.json                              ║
+║   ✅  protocol/test-vectors/README.md                                        ║
+║   ✅  protocol/conformance/README.md                                         ║
+║   ✅  protocol/conformance/LEVELS.md                                         ║
+║                                                                              ║
+║   Total: 19 archivos                                                         ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
