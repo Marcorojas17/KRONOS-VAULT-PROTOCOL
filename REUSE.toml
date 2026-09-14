@@ -1,0 +1,122 @@
+# REUSE.toml
+# REUSE configuration for kronos-protocol
+# Spec: https://reuse.software/spec/
+# Status: configuration in progress · validate with `reuse lint`
+
+version = 1
+
+# ─────────────────────────────────────────────────────────────────────────
+# CC-BY-4.0 · specification, docs, root documentation, .github
+# (docs/** covers docs/_config.yml and docs/assets/img/logo.*
+#  — those two are re-declared below with precedence = "override")
+# ─────────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = [
+  "protocol/**",
+  "docs/**",
+  ".github/**",
+  "README.md",
+  "GOVERNANCE.md",
+  "CONTRIBUTING.md",
+  "CODE_OF_CONDUCT.md",
+  "SECURITY.md",
+  "CHANGELOG.md",
+  "LICENSES/README.md",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Marco Antonio Rojas Valdovinos"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# ─────────────────────────────────────────────────────────────────────────
+# Override · docs/_config.yml is CC0-1.0 (takes priority over docs/**)
+# ─────────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = "docs/_config.yml"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Marco Antonio Rojas Valdovinos"
+SPDX-License-Identifier = "CC0-1.0"
+
+# ─────────────────────────────────────────────────────────────────────────
+# Override · docs logo uses brand policy (takes priority over docs/**)
+# ─────────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = "docs/assets/img/logo.*"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Marco Antonio Rojas Valdovinos"
+SPDX-License-Identifier = "LicenseRef-Kronos-Brand-Policy"
+
+# ─────────────────────────────────────────────────────────────────────────
+# CC0-1.0 · repository plumbing and license metadata
+# ─────────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = [
+  ".gitignore",
+  ".gitattributes",
+  "LICENSE",
+  "REUSE.toml",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Marco Antonio Rojas Valdovinos"
+SPDX-License-Identifier = "CC0-1.0"
+
+# ─────────────────────────────────────────────────────────────────────────
+# Apache-2.0 · reference implementation
+# ─────────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = "reference-implementation/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Marco Antonio Rojas Valdovinos"
+SPDX-License-Identifier = "Apache-2.0"
+
+# ─────────────────────────────────────────────────────────────────────────
+# LicenseRef-Kronos-Brand-Policy · brand directory
+# ─────────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = "brand/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Marco Antonio Rojas Valdovinos"
+SPDX-License-Identifier = "LicenseRef-Kronos-Brand-Policy"
+
+# ─────────────────────────────────────────────────────────────────────────
+# CC-BY-4.0 non-normative · provenance
+# ─────────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = "evidence/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Marco Antonio Rojas Valdovinos"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# ─────────────────────────────────────────────────────────────────────────
+# License texts · upstream texts must remain complete and unmodified
+# ─────────────────────────────────────────────────────────────────────────
+
+[[annotations]]
+path = "LICENSES/CC-BY-4.0.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Creative Commons"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "LICENSES/CC0-1.0.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Creative Commons"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "LICENSES/Apache-2.0.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "The Apache Software Foundation"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "LICENSES/LicenseRef-Kronos-Brand-Policy.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Marco Antonio Rojas Valdovinos"
+SPDX-License-Identifier = "LicenseRef-Kronos-Brand-Policy"
