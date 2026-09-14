@@ -1,0 +1,18 @@
+{
+  "folio": "FVD-(TEXTILX)-00042",
+  "version": "KTP-001/v0.1.0",
+  "issued": "2026-09-14T12:00:00Z",
+  "issuer": {
+    "id": "did:example:textilx",
+    "name": "TextilX"
+  },
+  "hashes": {
+    "sha256": "ac25bc59ca85be7956dcb121da2af48197bcbe33ac25bc59ca85be7956dcb121",
+    "sha512": "ef2345889d1ea4a307c2bf50bca16f7ac415f85865c3fd6169e2f8c7f5c0bca67bbf0d92605783c96ad57f31d2eb673d2d6760ab81ee9d63b4d143bf636b851"
+  },
+  "timestamps": [
+    { "type": "rfc3161", "authority": "TSA-A", "timestamp": "2026-09-14T12:00:01Z" },
+    { "type": "rfc3161", "authority": "TSA-B", "timestamp": "2026-09-14T12:00:02Z" }
+  ],
+  "state": 0
+}
