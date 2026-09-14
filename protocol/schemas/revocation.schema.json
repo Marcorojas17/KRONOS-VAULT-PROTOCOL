@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Marcorojas17/kronos-protocol/protocol/schemas/revocation.schema.json",
+  "title": "KTP Revocation Event",
+  "description": "Validates a KTP-001 revocation event.",
+  "ktp_version": "0.1.0",
+  "license": "CC-BY-4.0",
+  "sha256": "",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["folio", "state", "revoked_at", "reason"],
+  "properties": {
+    "folio": { "$ref": "folio.schema.json" },
+    "state": { "type": "integer", "const": 1 },
+    "revoked_at": { "type": "string", "format": "date-time" },
+    "reason": {
+      "type": "string",
+      "enum": ["lost", "stolen", "duplicate", "error", "other"]
+    },
+    "note": { "type": "string", "maxLength": 500 }
+  }
+}
