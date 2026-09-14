@@ -1,0 +1,11 @@
+{
+  "folio": "FVD-(DEMO)-00001",
+  "version": "KTP-001/v0.1.0",
+  "issued": "not-a-date",
+  "issuer": { "id": "did:example:issuer-01", "name": "Example" },
+  "hashes": { "sha256": "ZZZ" },
+  "timestamps": [
+    { "type": "rfc3161", "authority": "TSA-A", "timestamp": "2026-09-14T00:00:01Z" }
+  ],
+  "state": 0
+}
