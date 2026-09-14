@@ -1,0 +1,73 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  KRONOS VAULT PROTOCOL · Jekyll Configuration · v0.1.0
+#  GitHub Pages · hacker theme · animated background
+#  License: CC0-1.0
+# ═══════════════════════════════════════════════════════════════════════════
+
+title: Kronos Vault Protocol
+tagline: An open standard for digital evidence
+description: >-
+  KTP is an open standard for representing, sealing, and verifying
+  interoperable digital evidence. Draft v0.1.0.
+
+url: "https://marcorojas17.github.io"
+baseurl: "/kronos-protocol"
+
+author:
+  name: Marco Antonio Rojas Valdovinos
+  email: proyectokronos@hotmail.com
+
+# Disable default Jekyll theme — we use our own layout
+theme: null
+
+# Markdown & highlighting
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Navigation — rendered in _includes/nav.html
+nav:
+  - title: Home
+    url: /
+  - title: Spec
+    url: /especificacion.html
+  - title: Implement
+    url: /implementar.html
+  - title: Verify
+    url: /verificar.html
+  - title: Conformance
+    url: /conformidad.html
+  - title: Governance
+    url: /gobernanza.html
+  - title: Versioning
+    url: /versionado.html
+  - title: FAQ
+    url: /preguntas-frecuentes.html
+  - title: Legal
+    url: /aviso-legal.html
+
+# Repo info
+repo:
+  owner: Marcorojas17
+  name: kronos-protocol
+  url: "https://github.com/Marcorojas17/kronos-protocol"
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+
+# Defaults per path
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
