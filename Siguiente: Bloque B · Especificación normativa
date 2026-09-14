@@ -1,0 +1,17 @@
+  BLOQUE B · SPEC
+  ├── protocol/README.md
+  ├── protocol/KTP-001.md              ← la pieza central
+  ├── protocol/CHANGELOG.md
+  ├── protocol/SECURITY-CONSIDERATIONS.md
+  ├── protocol/PRIVACY-CONSIDERATIONS.md
+  ├── protocol/rfcs/README.md
+  ├── protocol/rfcs/0000-process.md
+  ├── protocol/rfcs/0001-template.md
+  ├── protocol/schemas/README.md
+  ├── protocol/schemas/folio.schema.json
+  ├── protocol/schemas/credential.schema.json
+  ├── protocol/schemas/revocation.schema.json
+  ├── protocol/schemas/examples/*.json
+  ├── protocol/test-vectors/README.md
+  ├── protocol/conformance/README.md
+  └── protocol/conformance/LEVELS.md
