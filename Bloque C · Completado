@@ -1,0 +1,25 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   ▓ BLOQUE C · SITIO WEB GITHUB PAGES · COMPLETADO                           ║
+║                                                                              ║
+║   ✅  docs/_config.yml                                                       ║
+║   ✅  docs/_layouts/default.html                                             ║
+║   ✅  docs/_includes/header.html                                             ║
+║   ✅  docs/_includes/nav.html                                                ║
+║   ✅  docs/_includes/footer.html                                             ║
+║   ✅  docs/assets/css/style.css                                              ║
+║   ✅  docs/assets/js/background.js                                           ║
+║   ✅  docs/assets/js/main.js                                                 ║
+║   ✅  docs/index.md                                                          ║
+║   ✅  docs/especificacion.md                                                 ║
+║   ✅  docs/implementar.md                                                    ║
+║   ✅  docs/verificar.md                                                      ║
+║   ✅  docs/conformidad.md                                                    ║
+║   ✅  docs/gobernanza.md                                                     ║
+║   ✅  docs/versionado.md                                                     ║
+║   ✅  docs/aviso-legal.md                                                    ║
+║   ✅  docs/preguntas-frecuentes.md                                           ║
+║                                                                              ║
+║   Total: 17 archivos                                                         ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
