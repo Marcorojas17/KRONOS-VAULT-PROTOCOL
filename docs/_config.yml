@@ -11,7 +11,7 @@ description: >-
   interoperable digital evidence. Draft v0.1.0.
 
 url: "https://marcorojas17.github.io"
-baseurl: "/kronos-protocol"
+baseurl: "/KRONOS-VAULT-PROTOCOL"
 
 author:
   name: Marco Antonio Rojas Valdovinos
@@ -53,8 +53,8 @@ nav:
 # Repo info
 repo:
   owner: Marcorojas17
-  name: kronos-protocol
-  url: "https://github.com/Marcorojas17/kronos-protocol"
+  name: KRONOS-VAULT-PROTOCOL
+  url: "https://github.com/Marcorojas17/KRONOS-VAULT-PROTOCOL"
 
 # Build settings
 exclude:
