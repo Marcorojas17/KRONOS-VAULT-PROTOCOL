@@ -1,0 +1,25 @@
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="wrap">
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+      <span class="nav-toggle-icon">≡</span>
+      <span class="nav-toggle-label">Menu</span>
+    </button>
+
+    <ul id="nav-list" class="nav-list">
+      {% for item in site.nav %}
+      <li>
+        <a href="{{ item.url | relative_url }}"
+           {% if page.url == item.url %}class="active"{% endif %}>
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+      <li>
+        <a href="{{ site.repo.url }}" target="_blank" rel="noopener"
+           class="nav-external">
+          GitHub ↗
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
