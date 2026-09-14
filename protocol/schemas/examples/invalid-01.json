@@ -1,0 +1,9 @@
+{
+  "folio": "FVD-demo-1",
+  "version": "KTP-001/v0.1.0",
+  "issued": "2026-09-14T00:00:00Z",
+  "issuer": { "id": "x", "name": "" },
+  "hashes": {},
+  "timestamps": [],
+  "state": 5
+}
